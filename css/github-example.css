@@ -1,0 +1,145 @@
+body {
+    font-family: Lato, "Microsoft YaHei", sans-serif;
+}
+
+a, a :visited {
+    color: #333;
+}
+
+header {
+    padding: 20px 10px;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+    border-bottom: solid 1px #275da1;
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+
+header .button {
+    float: right;
+    background: transparent url(../images/github-button.png) 0 0 no-repeat;
+    height: 80px;
+    width: 125px;
+    padding-top: 22px;
+    padding-left: 80px;
+    font-size: 23px;
+    line-height: 1.2;
+    color: #fff;
+    box-sizing: content-box;
+}
+
+.table {
+    max-width: 100%;
+    background-color: transparent;
+    border-spacing: 0;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-collapse: separate;
+    border-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.table th {
+    font-weight: bold;
+    background-color: #D5E7FB;
+}
+
+.table-bordered th, .table-bordered td {
+    border-left: 1px solid #ddd;
+}
+
+.table tr:nth-child(even) {
+    background: #F7F8F9;
+}
+
+.table th, .table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+header .button small {
+    display: block;
+    font-size: 11px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    width: 960px;
+    margin: 30px auto;
+}
+
+.main-inner {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 799px) {
+    .main-inner, footer {
+        width: 98%;
+    }
+
+    header .button {
+        background: none;
+        width: auto;
+        padding-left: 0;
+    }
+}
+
+.paper-code {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+.paper-title {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+    text-shadow: 1px 1px #efefef, 2px 2px #aee2d9;
+}
+
+.paper-tips {
+    padding: 4px 10px;
+    overflow-x: auto;
+    color: #5B8FEF;
+    line-height: 2;
+    border: 1px dashed #5B8FEF;
+    background-color: #F0F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.paper-specil {
+    color: #5B8FEF;
+    font-weight: bold;
+}
+
+.paper-sep {
+    border-bottom: 3px dashed #5B8FEF;
+    margin: 40px 0 20px;
+}
+
+.paper-div {
+    width: 100%;
+    position: relative;
+    line-height: 24px;
+}
