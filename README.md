@@ -1,2 +1,1 @@
-# resources
-dodge
+其他项目使用的公共文件
