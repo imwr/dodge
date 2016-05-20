@@ -1,6 +1,3 @@
-/**
- *
- */
 ;
 $("[id^=demo]").each(function () {
     var demo = $(this).parent();
