@@ -98,10 +98,6 @@ header .main-inner {
 }
 
 @media only screen and (max-width: 799px) {
-    .main-inner, footer {
-        width: 98%;
-    }
-
     header .button {
         background: none;
         width: auto;
