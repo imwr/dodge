@@ -8,14 +8,14 @@ a, a :visited {
 }
 
 header {
-    padding: 20px 10px;
+    padding: 10px 10px;
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
     border-bottom: solid 1px #275da1;
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 4.8em;
     font-weight: normal;
     color: #fff;
     margin: 0;
@@ -84,12 +84,12 @@ footer {
 }
 
 .main-inner {
-    position: relative;
     width: 960px;
-    margin: 0 auto;
+    margin: 10px auto;
     background: #fff;
-    padding: 0 20px;
     border: 1px solid #e0dbdb;
+    font-size: 14px;
+    position: relative;
 }
 
 header .main-inner {
@@ -98,6 +98,10 @@ header .main-inner {
 }
 
 @media only screen and (max-width: 799px) {
+    .main-inner {
+        width: 100%;
+    }
+
     header .button {
         background: none;
         width: auto;

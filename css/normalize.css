@@ -431,7 +431,7 @@ th {
 
 body {
     overflow-x: hidden;
-    font-family:?Lato,"Microsoft YaHei",sans-serif;
+    font-family: Lato, "Microsoft YaHei", sans-serif;
 }
 
 li {
@@ -457,7 +457,7 @@ a {
 }
 
 .bg-grey {
-    background: #ddd;
+    background: #f1f1f1;
 }
 
 .hide, [hidden] {
@@ -475,12 +475,12 @@ a {
     word-break: break-all
 }
 
-.clearfix {
-    clear: both
+.clearfix, .clearfix:before, .clearfix:after {
+    clear: both;
 }
 
 .left {
-    float: left
+    float: left;
 }
 
 .right {
@@ -512,4 +512,13 @@ a {
 .wm-w-100 {
     display: inline-block;
     width: 100px !important
+}
+
+.col-12 {
+    width: 100%;
+    display: block;
+}
+
+.col-6 {
+    width: 50%;
 }
