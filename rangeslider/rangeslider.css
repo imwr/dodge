@@ -13,6 +13,8 @@
 .rangeslider--horizontal {
     height: 20px;
     width: 100%;
+    vertical-align: middle;
+    margin-top: 12px;
 }
 
 .rangeslider--vertical {
@@ -27,7 +29,7 @@
 }
 
 .rangeslider__fill {
-    background: #00ff00;
+    background: rgb(54, 129, 212);
     position: absolute;
 }
 
@@ -63,7 +65,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0px;
+    left: 0;
     background: rgba(130, 128, 128, 0.13);
     border-radius: 50%;
 }
@@ -87,5 +89,5 @@
 }
 
 input[type="range"]:focus + .rangeslider .rangeslider__handle {
-    box-shadow: 0 0 8px rgba(255, 0, 255, 0.9);
+    box-shadow: 0 0 4px rgb(69, 144, 212);
 }
