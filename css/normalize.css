@@ -426,6 +426,8 @@ th {
 */
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -488,7 +490,7 @@ a {
 }
 
 .padding-l {
-    padding: 10px !important
+    padding: 10px !important;
 }
 
 .m-20 {
