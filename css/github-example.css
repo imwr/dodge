@@ -90,11 +90,13 @@ footer {
     border: 1px solid #e0dbdb;
     font-size: 14px;
     position: relative;
+    padding: 0 15px;
 }
 
 header .main-inner {
     background: none;
     border: none;
+    padding: 0;
 }
 
 @media only screen and (max-width: 799px) {
