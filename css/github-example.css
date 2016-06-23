@@ -105,10 +105,16 @@ header .main-inner {
         width: 100%;
     }
 
+    header .main-inner {
+        margin: 0 auto;
+        font-size: 10px;
+    }
+
     header .button {
         background: none;
         width: auto;
         padding-left: 0;
+        padding-top: 10px;
     }
 }
 
