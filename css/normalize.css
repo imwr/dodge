@@ -431,11 +431,6 @@ th {
     box-sizing: border-box;
 }
 
-body {
-    overflow-x: hidden;
-    font-family: Lato, "Microsoft YaHei", sans-serif;
-}
-
 li {
     list-style-type: none;
 }

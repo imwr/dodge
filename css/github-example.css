@@ -1,6 +1,7 @@
 body {
     font-family: Lato, "Microsoft YaHei", sans-serif;
     background: #f1f1f1;
+    overflow-x: hidden
 }
 
 a, a :visited {
