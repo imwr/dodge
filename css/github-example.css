@@ -5,34 +5,7 @@ body {
 }
 
 a, a :visited {
-    color: #333;
-}
-
-header {
-    padding: 10px 10px;
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-    background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-    border-bottom: solid 1px #275da1;
-}
-
-header h1 {
-    font-size: 4.8em;
-    font-weight: normal;
-    color: #fff;
-    margin: 0;
-}
-
-header .button {
-    float: right;
-    background: transparent url(../images/github-button.png) 0 0 no-repeat;
-    height: 80px;
-    width: 125px;
-    padding-top: 22px;
-    padding-left: 80px;
-    font-size: 23px;
-    line-height: 1.2;
-    color: #fff;
-    box-sizing: content-box;
+    color: #337ab7;
 }
 
 .table {
@@ -70,11 +43,7 @@ header .button {
     text-align: left;
     vertical-align: top;
     border-top: 1px solid #ddd;
-}
-
-header .button small {
-    display: block;
-    font-size: 11px;
+    word-break: break-all;
 }
 
 footer {
@@ -84,8 +53,31 @@ footer {
     margin: 30px auto;
 }
 
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .main-inner {
+        width: 100%;
+    }
+}
+
 .main-inner {
-    width: 960px;
     margin: 10px auto;
     background: #fff;
     border: 1px solid #e0dbdb;
@@ -94,27 +86,9 @@ footer {
     padding: 0 15px;
 }
 
-header .main-inner {
-    background: none;
-    border: none;
-    padding: 0;
-}
-
 @media only screen and (max-width: 799px) {
     .main-inner {
         width: 100%;
-    }
-
-    header .main-inner {
-        margin: 0 auto;
-        font-size: 10px;
-    }
-
-    header .button {
-        background: none;
-        width: auto;
-        padding-left: 0;
-        padding-top: 10px;
     }
 }
 
@@ -152,8 +126,8 @@ header .main-inner {
 }
 
 .paper-sep {
-    border-bottom: 3px dashed #5B8FEF;
-    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0 20px;
 }
 
 .paper-div {
